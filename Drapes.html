@@ -1,0 +1,104 @@
+<html>
+<style>
+.*{
+ box-sizing: border-box;
+}
+body{
+	font-family:Arial;
+	padding:10px;
+	background:#f1f1f1;
+}
+}
+.header{
+	padding:30px;
+	text-align:center;
+	Background:transparent;
+
+	}
+.column {
+	float:left;
+	width:25%;
+	padding:0 10px;
+}
+.row { margin:0 -5px; }
+.row:after {
+	content:"";
+	display:table;
+	clear: both;
+}
+.card	{
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+	padding:16px;
+	text-align:center;
+	background-color:#f1f1f1;
+}
+.card button {
+	border: none;
+	outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+.price { color:grey;
+font-size:18px }
+.button{
+	border:none;
+	outline:0px;
+	display: inline-block;
+	padding:8px;
+	color:white;
+	background-color:#000;
+	text-align:center;
+	cursor:pointer;
+	width:100%;
+}
+
+.button:hover{
+	background-color:#555;
+}
+</style>
+<link rel="stylesheet" href="master.css">
+<body>
+<div class="header"><h1 style="  text-align: center;
+  text-transform: uppercase;
+  color: #ff3333"> Surgical Drapes </h1></div>
+<div class="row">
+<div class="column">
+<div class="card">
+<img src="drapes1.jpg" alt="Drapes" style="height:50%;width:100%">
+<h3> Drapes</h3>
+<p><b>Surgical Drapes -</b></p>
+<p>100mg</p>
+<p class="price">250/-₹</p>
+<p><button> Add To Cart</button></p>
+</div></div>
+
+<div class="column">
+<div class="card">
+<img src="comp2.png" alt="pp kit" style="height:50%;width:100%">
+<h3> Drapes</h3>
+<p><b>Surgical Drapes -</b></p>
+<p>100mg</p>
+<p class="price">500/-₹</p>
+<p><button> Add To Cart</button></p>
+</div></div>
+<div class="column">
+<div class="card">
+<img src="comp1.jpg" alt="tapes" style="height:50%;width:100%">
+<h3> Drapes</h3>
+<p><b>Surgical Drapes -</b></p>
+<p>100mg</p>
+<p class="price">80/-₹</p>
+<p><button> Add To Cart</button></p>
+</div></div>
+</div>
+<a href="main page.html"><button class="button">Back</button></a>
+</body>
+</html>

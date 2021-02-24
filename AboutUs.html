@@ -1,0 +1,121 @@
+<html>
+<head>
+	<title>About Us</title>
+</head>
+<style>
+body{
+	font-family:Arial;
+	margin:0;
+    background: #f1f1f1;
+}
+html{
+box-sizing: border-box;
+}
+*, *:before,*:after{
+	box-sizing: inherit;
+}
+.column {
+	float:left;
+	width:33.3%;
+	margin-bottom:16px;
+	padding:0 8px;
+}
+.card {
+		box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+	padding:16px;
+	text-align:center;
+	background-color:#f1f1f1;
+}
+.card:hover {
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.about-section{
+	padding:50px;
+	text-align:center;
+	background-color:#474e5d;
+	color:white;
+}
+.container{
+	padding:0 16px;
+}
+.container::after, .now::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+.title{
+	color:grey;
+}
+.footer{
+	padding:200px;
+	text-align:center;
+	background:#ddd;
+    }
+.button{
+	border:none;
+	outline:0px;
+	display: inline-block;
+	padding:8px;
+	color:white;
+	background-color:#000;
+	text-align:center;
+	cursor:pointer;
+	width:100%;
+}
+.button:hover{
+	background-color:#555;
+}
+@media screen and (max-width:650px){
+.column{
+	width:100%;
+	display:block;
+}
+}
+</style>
+<link rel="stylesheet" href="master.css">
+<body>
+<div class="about-section">
+<h2>About Us</h2>
+<p>This is Prutha Surgicare Website For all </p>
+<p>Who are part Of Our Community</p></div>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+<div class="column">
+<div class="card">
+<img src="akshay-kumar.jpg" alt="Pravin" style="height:60%;width:100%">
+<div class="container">
+<h2>Pravin Budhe</h2>
+<p class="title">CEO & Founder</p>
+<p>pruthasurgicare@gmail.com</p>
+<p><button class="button">Contact</button></p>
+</div>
+</div>
+</div>
+<div class="column">
+<div class="card">
+<img src="tony.jpg" alt="Yash" style="height:60%;width:100%">
+<div class="container">
+<h2>Yash Budhe</h2>
+<p class="title">Manager</p>
+<p>yashbudhe25@gmail.com</p>
+<p><button class="button">Contact</button></p>
+</div>
+</div>
+</div>
+<div class="column">
+<div class="card">
+<img src="tony.jpg" alt="prutha" style="height:60%;width:100%">
+<div class="container">
+<h2>prutha Budhe</h2>
+<p class="title">Manager</p>
+<p>yashbudhe25@gmail.com</p>
+<p><button class="button">Contact</button></p>
+</div>
+</div>
+</div>
+</div>
+<a href="main page.html">
+<button class="button" style="font-size:35px">Back</button></a>
+<div class="footer"><h2>Contact Us</h2><p>Email : <a href="pruthasurgicare@gmail.com">Pruthasurgicar@gmail.com</a> <br><p>Contact : 1234567890/1234567889</p></div>
+</body>
+</html>
